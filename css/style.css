@@ -143,6 +143,24 @@ background: linear-gradient(0deg, rgba(2,126,251,1) 0%,  rgba(0,3,255,1)100%);
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
+
+.spisok{
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 35px; /* Отступ слева */
+  padding: 3px; /* Поля вокруг текста */
+  font-size: 100px;
+  position: relative;
+ 
+}
+
+.spisok1{
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 35px; /* Отступ слева */
+  padding: 3px; /* Поля вокруг текста */
+  font-size: 100px;
+  position: relative;
+  padding-left: 100px;
+}
  
 #preloader_1 span:nth-child(2){
 left:11px;
